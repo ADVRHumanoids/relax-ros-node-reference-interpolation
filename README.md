@@ -9,4 +9,4 @@ The node subscribes to:
 and publishes the trajectory interpolated to:
 - `/xbotcore/command`
 
-Run it with `rosrun relax-ros-node-reference-interpolation jointTrajInterpol`
+Run it with `rosrun relax_reference_interpolation jointTrajInterpol`

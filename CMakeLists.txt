@@ -39,3 +39,7 @@ add_executable(jointTrajInterpol
 target_link_libraries(jointTrajInterpol
   ${catkin_LIBRARIES}
 )
+
+install(TARGETS jointTrajInterpol
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
